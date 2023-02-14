@@ -23,3 +23,6 @@ poetry.lock
 
 # PyCharm
 .idea
+
+# MobileNeRF dataset
+*.zip

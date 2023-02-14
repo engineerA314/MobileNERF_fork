@@ -50,6 +50,7 @@ import time
 import matplotlib.pyplot as plt
 from PIL import Image
 from multiprocessing.pool import ThreadPool
+from .utils import *
 
 print(jax.local_devices())
 if len(jax.local_devices())!=8:
